@@ -1,0 +1,37 @@
+{
+  "author": "Adrian Gurnett",
+  "classifications": [],
+  "description": "template description",
+  "name": "Demo console project",
+  "defaultName": "ConsoleProject",
+  "identity": "Demo.Console.CSharp",
+  "groupIdentity": "Demo.Console",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "shortName": "democon",
+  "sourceName": "Demo.Console",
+  "guids": [
+    "{C8081F4C-C25C-46B0-829D-78EC5AC9A730}",
+    "{DEF787C5-4637-438E-80CD-A498244ED5BD}"
+  ],
+  "primaryOutputs": [
+    {
+      "path": "Demo.Console\\Demo.Console.csproj"
+    },
+    {
+      "path": "Demo.Console.Tests\\Demo.Console.Tests.csproj"
+    }
+  ],
+  "symbols": {
+    "pkgreplace": {
+      "type": "generated",
+      "generator": "constant",
+      "parameters": {
+        "value": "$(SolutionDir)\\packages\\"
+      },
+      "replaces": "..\\packages\\"
+    }
+  }
+}

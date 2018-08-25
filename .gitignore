@@ -3,3 +3,12 @@
 ################################################################################
 
 /.vs/config
+/.vs/Demo.SideWaffleTemplate.dotnet46/v15/Server/sqlite3
+/Demo.Console/bin/Debug
+/Demo.Console/obj/Debug
+/Demo.Console.Tests/bin/Debug
+/Demo.Console.Tests/obj/Debug
+/DemoTemplatePack/bin/Debug
+/DemoTemplatePack/obj/Debug
+/packages
+/DemoTemplatePack/template/obj
